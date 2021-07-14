@@ -153,8 +153,8 @@ footer {
 }
 
 .speech {
-    margin: 30px;
-    padding: 10px;
+    margin: 40px;
+    padding: 20px;
     box-shadow: 3px 3px 30px rgb(194, 192, 192);
 }
 
@@ -167,10 +167,11 @@ footer {
 }
 
 .action {
-    width: 50%;
+    width: 80%;
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: space-evenly;
     box-shadow: 3px 3px 30px rgb(226, 225, 225);
 }
 
@@ -194,4 +195,45 @@ p span {
     background-color: red;
     color: white;
     padding: 10px 20px;
+}
+
+
+/*---------------------
+ media query start
+ ------------------------*/
+
+@media only screen and (max-width: 480px) {
+    .navigation {
+        background-color: rgb(116, 8, 8);
+    }
+    .front-page {
+        display: flex;
+        flex-direction: column;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlights {
+        display: flex;
+        flex-direction: column;
+    }
+    .fifa-info {
+        display: flex;
+    }
+    .president {
+        display: flex;
+        flex-direction: column;
+    }
+    .action {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: fit-content;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
