@@ -28,7 +28,8 @@ a {
 }
 
 .login,
-.watch {
+.watch,
+.watch-now {
     background-color: #E02C6D;
     padding: 10px 20px;
 }
@@ -49,3 +50,54 @@ a {
 }
 
 .title {}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin-top: 55px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    margin: 15px;
+    padding: 15px;
+    padding-bottom: 43px;
+    box-shadow: 3px 3px 30px rgb(209, 207, 207);
+}
+
+.player img {
+    width: 100%;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 160px 0;
+}
+
+.highlights img {
+    width: 570px;
+    height: 430px;
+}
+
+.info {
+    width: 466px;
+    height: 309px;
+    margin: 69px;
+}
+
+.logo img {
+    width: 484px;
+    height: 110px;
+}
