@@ -11,7 +11,7 @@ header {
 .navigation {
     display: flex;
     justify-content: space-around;
-    padding: 30px;
+    padding: 20px;
 }
 
 .navigation a {
@@ -59,7 +59,7 @@ a {
 }
 
 .banner img {
-    width: 556px;
+    width: 330px;
 }
 
 .title {
@@ -96,44 +96,23 @@ main {
 
 .highlights {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin: 160px 0;
 }
 
 .highlights img {
-    width: 570px;
-    height: 430px;
+    width: 400px;
+    height: 370px;
 }
 
 .info {
-    width: 466px;
-    height: 309px;
-    margin: 69px;
+    margin: 5%;
+    width: 350px;
 }
 
 .info p {
     padding-bottom: 10px;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.logo img {
-    width: 484px;
-    height: 110px;
-}
-
-.icon i {
-    padding: 5px;
-    border-radius: 20px;
-    margin: 5px;
-    background-color: rgb(201, 195, 195);
-    color: gray;
 }
 
 .fifa-info {
@@ -141,33 +120,27 @@ footer {
     align-items: center;
 }
 
-.aside {
-    width: 250px;
-    margin-right: 20px;
-}
-
 .president {
-    width: 100%;
+    width: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .speech {
-    margin: 40px;
-    padding: 20px;
+    margin: 30px;
+    padding: 10px;
     box-shadow: 3px 3px 30px rgb(194, 192, 192);
 }
 
 .speech p {
-    width: 400px;
+    width: 350px;
 }
 
 .speech img {
-    width: 500px;
+    width: 280px;
 }
 
 .action {
-    width: 80%;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -179,12 +152,16 @@ footer {
     padding-left: 20px;
 }
 
+.photo img {
+    width: 350px;
+}
+
 .details {
     padding-left: 20px;
 }
 
 .details h1 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 span {
@@ -195,6 +172,26 @@ p span {
     background-color: red;
     color: white;
     padding: 10px 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 354px;
+    height: 110px;
+}
+
+.icon i {
+    padding: 5px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgb(201, 195, 195);
+    color: gray;
 }
 
 
@@ -220,17 +217,16 @@ p span {
     }
     .fifa-info {
         display: flex;
+        flex-direction: column;
     }
     .president {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .action {
         display: flex;
         flex-direction: column;
-    }
-    .logo {
-        width: fit-content;
     }
     footer {
         display: flex;
